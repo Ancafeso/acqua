@@ -39,7 +39,7 @@ Seguem fotos dos quadros de comando:
 
 ## Manômetro dos tanques pricipais
 
-Segue foto do manômetro que equipa cada um dos tanques principais. A indicação de tanque cheio corresponde a uma pressão de 1.5 kg/cm2 ou 15 mca.
+Segue foto do manômetro que equipa cada um dos tanques principais. A indicação de tanque cheio corresponde a uma pressão de 1.5 kg/cm2.
 
 ![manometro-2](https://user-images.githubusercontent.com/86032/116251300-ee25c700-a744-11eb-877d-5a9cff9f91c5.jpg)
 
