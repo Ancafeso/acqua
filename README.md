@@ -14,7 +14,7 @@ Este repositório contém especificações técnicas para um sistema de supervis
 - A distância entre os tanques principais e o quadro da bomba de entrada é de 1 Km;
 - O quadro de comando atual é somente entre a bóia da caixa de entrada com o quadro da bomba;
 - A bomba só liga se tiver água na caixa de entrada acima de um certo nível;
-- A bomba é desligada manualmente quando o controle visual do manômentro indica pressão de tanque cheio, cerca de 15mca ou 1.5 kg/cm2;
+- A bomba é desligada manualmente quando o controle visual do manômentro indica pressão de tanque cheio, cerca de 1.5 kg/cm2;
 - A bomba desliga se não houver água na caixa de entrada;
 
 ## Tanques principais
