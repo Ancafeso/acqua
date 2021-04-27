@@ -37,6 +37,12 @@ Seguem fotos dos quadros de comando:
 ![quadro-1](https://user-images.githubusercontent.com/86032/116251306-ef56f400-a744-11eb-8fef-72a4e3e4ce6f.jpg)
 ![quadro-2](https://user-images.githubusercontent.com/86032/116251308-efef8a80-a744-11eb-8fa6-ae57d3fa5661.jpg)
 
+## Manômetro dos tanques pricipais
+
+Segue foto do manômetro que equipa cada um dos tanques principais. A indicação de tanque cheio corresponde a uma pressão de 1.5 kg/cm2 ou 15 mca.
+
+![manometro-2](https://user-images.githubusercontent.com/86032/116251300-ee25c700-a744-11eb-877d-5a9cff9f91c5.jpg)
+
 ## Sistema de Supervisão
 
 O Sistema de Supervisão a ser instalado deverá complementar o sistema atual com as seguintes funções:
