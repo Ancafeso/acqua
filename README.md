@@ -50,7 +50,7 @@ O Sistema de Supervisão a ser instalado deverá complementar o sistema atual co
 
 - Link wireless de comunicação entre os reservatórios, a entrada e a sala de supervisão;
 
-Segue um diagrama típico obtido de um Sistema de Supervisão semelhante ao atual, em que a bomba é acionada diversas vezes durante o dia para transferir água da caixa de entrada para os reservatórios principais. Durante a madrugada, onde o consumo é baixo, a bomba permanece desligada. Na manhã seguinte, volta novamente a funcionar e toda a variação de estado é registrada.
+Segue um diagrama típico obtido de um Sistema de Supervisão semelhante ao atual, em que a bomba é acionada diversas vezes durante o dia para transferir água da caixa de entrada para o reservatório principal. Durante a madrugada, onde o consumo é baixo, a bomba permanece desligada. Na manhã seguinte, volta novamente a funcionar e toda a variação de estado é registrada.
 
 ![gráfico](https://user-images.githubusercontent.com/86032/65921516-d34c6e80-e3b8-11e9-9aca-f2b85e69e5dd.png)
 
