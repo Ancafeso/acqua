@@ -17,30 +17,33 @@ Este repositório contém especificações técnicas para um sistema de supervis
 - A bomba desliga quando não há água na caixa de entrada;
 - A bomba é desligada manualmente se o controle visual do manômetro dos reservatórios principais indica tanque cheio, correspondendo a uma pressão maior que 1.5 kg/cm2;
 
-## Tanques principais e gerador
+## Tanques principais
 
-Reservatórios principais com capacidade de 500 m3
+Reservatórios principais com capacidade de 500 m3 cada.
 
 ![reservatorios](https://user-images.githubusercontent.com/86032/116251318-f120b780-a744-11eb-9716-656fc5e7cb19.jpg)
 
-Sala do gerador localizado ao lado dos tanques principais
+
+## Gerador
+
+Sala do gerador localizada ao lado dos tanques principais.
 
 ![gerador](https://user-images.githubusercontent.com/86032/116251333-f41ba800-a744-11eb-9652-6bb8ba3cc472.jpg)
 
 ## Caixa de entrada
 
-Segue foto da caixa de entrada com capacidade para 10 m3:
+Segue foto da caixa de entrada com capacidade para 10 m3.
 
 ![caixa-de-entrada](https://user-images.githubusercontent.com/86032/116251328-f2ea7b00-a744-11eb-973a-74a538368878.jpg)
 
 ## Quadros de comando
 
-Seguem fotos dos quadros de comando:
+Seguem fotos dos quadros de comando.
 
 ![quadro-1](https://user-images.githubusercontent.com/86032/116251306-ef56f400-a744-11eb-8fef-72a4e3e4ce6f.jpg)
 ![quadro-2](https://user-images.githubusercontent.com/86032/116251308-efef8a80-a744-11eb-8fa6-ae57d3fa5661.jpg)
 
-## Manômetro dos tanques pricipais
+## Manômetro dos tanques
 
 Segue foto do manômetro que equipa cada um dos tanques, a indicação de tanque cheio corresponde à pressão de 1.5 kg/cm2.
 
@@ -50,22 +53,23 @@ Segue foto do manômetro que equipa cada um dos tanques, a indicação de tanque
 
 O Sistema de Supervisão e Controle a ser instalado deverá possuir os seguintes componentes:
 
-- **Central do Sistema**: composto por dois microcomputadores, é responsável por capturar as informações em tempo real e gerar os comandos necessários á operação de abastecimento dos reservatórios;
-- **Atuador da bomba**: instalado no quadro de comando da bomba, conecta-se através do link de fibra ótica à Central do Sistema. É o responsável por enviar comandos à bomba;
-- **Sensores digitais de pressão**: instalados em ambos os tanques principais, utiliza a tecnologia PoE (Power over Ethernet) para alimentação e comunicação de dados. Conectado à Central do Sistema através de cabos de par trançado.
-- **Sensor digital a laser (opcional)**: nesse caso, seria também capturado o nível do tanque de entrada, medido em milímetros, até o limite de 4 metros.
+- **Central do Sistema**: composto por dois microcomputadores, é responsável por capturar as informações em tempo real e gerar os comandos necessários à operação de abastecimento dos reservatórios;
+- **Controlador da Bomba**: instalado no quadro de comando da bomba, conecta-se através do link de fibra ótica à Central do Sistema. É o responsável por enviar comandos à bomba;
+- **Sensor do Tanque**: instalados em ambos os tanques principais, utiliza a tecnologia PoE (Power over Ethernet) para alimentação e comunicação de dados. Conectado à Central do Sistema através de cabos de par trançado.
 
-Estes componentes serão interligados através de uma rede local de comunicação padrão Ethernet, com banda passante especificada em 200 Mbps. Está previsto que o Sistema de Supervisão e Controle combine os componentes acima para exercer as funções e/ou características especificadas a seguir.
+Estes componentes são interligados em rede local de comunicação padrão Ethernet, com banda passante especificada em 200 Mbps. Está previsto que o Sistema de Supervisão e Controle combine os componentes para exercer as funções e/ou características especificadas a seguir.
 
 ### Controle
 
-- Instalação de um atuador no quadro de comando da bomba;
-- O atuador permitirá um modo automático de operação para ligar/desligar a bomba;
+- Instalação de um Controlador próximo ao quadro de comando da bomba, em local abrigado;
+- O Controlador permitirá um modo automático de operação capaz de ligar/desligar a bomba;
+- O Controlador receberá informação binária sobre a posição da bóia da caixa de entrada;
 - No modo manual, o sistema se comportará como [antes](https://github.com/SaveH2o/acqua#introdu%C3%A7%C3%A3o);
 - No modo automático, a bomba deve desligar quando os reservatórios principais encherem;
 - No modo automático, a bomba deve ligar quando a água estiver abaixo de um certo nível;
-- Interligação do atuador com a Central de Comando, através de um link de fibra ótica;
-- As modificações no quadro de comando serão autorizadas/realizadas pelo cliente; ??
+- No modo automático, a bomba só deve ligar se houver água na caixa de entrada;
+- Interligação do Controlador com a Central de Comando, através de um link de fibra ótica;
+- O quadro de comando deverá sofrer adequações ao Sistema de Supervisão e Controle;
 
 ### Supervisão
 
@@ -77,11 +81,12 @@ Estes componentes serão interligados através de uma rede local de comunicaçã
 - Sensor laser opcional para obtenção do nível da caixa de entrada em tempo real;
 - As instalações de sensores serão autorizadas/realizadas pelo cliente; ??
 
-### Rede Local de Comunicação
+### Rede Local
 
 - Link de fibra ótica (single-mode/200Mbps) entre os reservatórios e a central de supervisão;
 - Links Ethernet (PoE/Cat6/200Mbps) utilizando cabo de par trançado entre a Central do Sistema a cada um dos tanques principais, com comprimento de até 100 m;
-- Opcionalmente pode ser utilizada a tecnologia Ethernet Gigabit 1000 Mbps. Nesse caso, seria preservado o investimento em eventual possibilidade de expansão futura do Sistema de Supervisão e Controle para uma quantidade maior de pontos.
+- Opcionalmente pode ser utilizada a tecnologia Ethernet Gigabit 1000 Mbps. Nesse caso, seria preservado o investimento em eventual possibilidade de expansão futura do Sistema de Supervisão e Controle para uma quantidade maior de pontos;
+- Central do Sistema equipada com Switch PoE+ 8 portas 10/100 Mbps ou Gigabit, pelo menos 4 portas devem ser PoE+ 30W cada e as demais portas podem ser não PoE.
 
 ### Software
 
