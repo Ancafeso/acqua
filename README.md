@@ -12,16 +12,19 @@ Este repositório contém especificações técnicas para um sistema de supervis
 - Uma bomba transfere a água da caixa de entrada para os dois reservatórios principais;
 - Acredita-se existir tubos de interligação entre os dois tanques para equilibrar o nível da água;
 - A distância entre os tanques principais e o quadro da bomba de entrada é de 1 Km;
-- O quadro de comando atual é somente entre a bóia da caixa de entrada com o quadro da bomba;
-- A bomba só liga se tiver água na caixa de entrada acima de um certo nível;
-- A bomba é desligada manualmente quando o controle visual do manômentro indica pressão de tanque cheio, cerca de 1.5 kg/cm2;
-- A bomba desliga se não houver água na caixa de entrada;
+- Existe um quadro de comando que atua na bomba, a partir da bóia da caixa de entrada;
+- A bomba liga sempre que a água na caixa de entrada atinge um certo nível;
+- A bomba desliga quando não há água na caixa de entrada;
+- A bomba é desligada manualmente se o controle visual do manômetro dos reservatórios principais indica tanque cheio, correspondendo a uma pressão maior que 1.5 kg/cm2;
 
-## Tanques principais
+## Tanques principais e gerador
 
-Seguem fotos dos reservatórios principais com capacidade de 500 m3 cada e do gerador que fica ao lado deles:
+Reservatórios principais com capacidade de 500 m3
 
 ![reservatorios](https://user-images.githubusercontent.com/86032/116251318-f120b780-a744-11eb-9716-656fc5e7cb19.jpg)
+
+Sala do gerador localizado ao lado dos tanques principais
+
 ![gerador](https://user-images.githubusercontent.com/86032/116251333-f41ba800-a744-11eb-9652-6bb8ba3cc472.jpg)
 
 ## Caixa de entrada
@@ -43,18 +46,42 @@ Segue foto do manômetro que equipa cada um dos tanques, a indicação de tanque
 
 ![manometro-2](https://user-images.githubusercontent.com/86032/116251300-ee25c700-a744-11eb-877d-5a9cff9f91c5.jpg)
 
-## Sistema de Supervisão
+## Sistema de Supervisão e Controle
 
-O Sistema de Supervisão a ser instalado deverá complementar o sistema atual com as seguintes funções:
+O Sistema de Supervisão e Controle a ser instalado deverá possuir os seguintes componentes:
 
-- Desligar a bomba automaticamente quando a bóia dos reservatórios principais subir;
-- Sensores de pressão para obtenção do nível da água nos reservatórios;
-- Sensor a laser (opcional) para obtenção do nível da caixa de entrada;
-- Disponibilizar uma central de sistema de supervisão instalada em local abrigado apropriado;
-- A central de supervisão deve apresentar telas com indicadores e gráficos relativos ao estado do sistema;
-- Indicadores locais (vermelho/amarelo/verde) sinalizam o estado do sistema, próximos aos reservatórios e à bomba;
+- **Central do Sistema**: composto por dois microcomputadores, é responsável por capturar as informações em tempo real e gerar os comandos necessários á operação do abastecimento dos reservatórios;
+- **Atuador da bomba**: instalado no quadro de comando da bomba, conecta-se através do link de fibra ótica à Central do Sistema. É o responsável por enviar comandos à bomba;
+- **Sensores digitais de pressão**: instalados em ambos os tanques principais, utiliza a tecnologia PoE (Power over Ethernet) para alimentação e comunicação de dados. Conectado à Central do Sistema através de cabos de par trançado.
+- **Sensor digital a laser (opcional)**: nesse caso, seria também capturado o nível do tanque de entrada, medido em milímetros, até o limite de 4 metros.
 
-- Link wireless de comunicação entre os reservatórios, a entrada e a sala de supervisão;
+Estes componentes serão interligados através de uma rede local de comunicação padrão Ethernet, com banda passante especificada em 200 Mbps. Está previsto que o Sistema de Supervisão e Controle combine os componentes acima para exercer as funções e/ou características especificadas a seguir.
+
+### Controle
+
+- Instalação de um atuador no quadro de comando da bomba;
+- O atuador permitirá um modo automático de operação para ligar/desligar a bomba;
+- No modo manual, o sistema se comportará como [antes](https://github.com/SaveH2o/acqua#introdu%C3%A7%C3%A3o);
+- No modo automático, a bomba deve desligar quando os reservatórios principais encherem;
+- No modo automático, a bomba deve ligar quando a água estiver abaixo de um certo nível;
+- Interligação do atuador com a Central de Comando, através de um link de fibra ótica;
+- As modificações no quadro de comando serão autorizadas/realizadas pelo cliente; ??
+
+### Supervisão
+
+- Sensores digitais de pressão para cálculo em tempo real do nível da água nos reservatórios;
+- Central do Sistema instalada em local abrigado equipado com alimentação no-break;
+- Para redundância em caso de falhas, a central será equipada com dois microcomputadores;
+- A Central dispõe de telas com indicadores e gráficos relativos ao estado do sistema;
+- Indicadores luminosos próximos aos reservatórios e à bomba sinalizam o estado do sistema;
+- Sensor laser opcional para obtenção do nível da caixa de entrada em tempo real;
+
+### Rede Local de Comunicação
+
+- Link de fibra ótica (single-mode/200Mbps) entre os reservatórios e a central de supervisão;
+- Links Ethernet (PoE/Cat6/200Mbps) utilizando cabo de par trançado entre a Central do Sistema a cada um dos tanques principais, com comprimento de até 100 m.
+
+### Software
 
 Segue um diagrama típico obtido de um Sistema de Supervisão semelhante ao atual, em que a bomba é acionada diversas vezes durante o dia para transferir água da caixa de entrada para o reservatório principal. Durante a madrugada, quando o consumo é baixo, a bomba permanece desligada. Na manhã seguinte, volta novamente a funcionar e toda a variação de estado é registrada.
 
