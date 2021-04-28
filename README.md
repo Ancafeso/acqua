@@ -50,7 +50,7 @@ Segue foto do manômetro que equipa cada um dos tanques, a indicação de tanque
 
 O Sistema de Supervisão e Controle a ser instalado deverá possuir os seguintes componentes:
 
-- **Central do Sistema**: composto por dois microcomputadores, é responsável por capturar as informações em tempo real e gerar os comandos necessários á operação do abastecimento dos reservatórios;
+- **Central do Sistema**: composto por dois microcomputadores, é responsável por capturar as informações em tempo real e gerar os comandos necessários á operação de abastecimento dos reservatórios;
 - **Atuador da bomba**: instalado no quadro de comando da bomba, conecta-se através do link de fibra ótica à Central do Sistema. É o responsável por enviar comandos à bomba;
 - **Sensores digitais de pressão**: instalados em ambos os tanques principais, utiliza a tecnologia PoE (Power over Ethernet) para alimentação e comunicação de dados. Conectado à Central do Sistema através de cabos de par trançado.
 - **Sensor digital a laser (opcional)**: nesse caso, seria também capturado o nível do tanque de entrada, medido em milímetros, até o limite de 4 metros.
@@ -75,11 +75,13 @@ Estes componentes serão interligados através de uma rede local de comunicaçã
 - A Central dispõe de telas com indicadores e gráficos relativos ao estado do sistema;
 - Indicadores luminosos próximos aos reservatórios e à bomba sinalizam o estado do sistema;
 - Sensor laser opcional para obtenção do nível da caixa de entrada em tempo real;
+- As instalações de sensores serão autorizadas/realizadas pelo cliente; ??
 
 ### Rede Local de Comunicação
 
 - Link de fibra ótica (single-mode/200Mbps) entre os reservatórios e a central de supervisão;
-- Links Ethernet (PoE/Cat6/200Mbps) utilizando cabo de par trançado entre a Central do Sistema a cada um dos tanques principais, com comprimento de até 100 m.
+- Links Ethernet (PoE/Cat6/200Mbps) utilizando cabo de par trançado entre a Central do Sistema a cada um dos tanques principais, com comprimento de até 100 m;
+- Opcionalmente pode ser utilizada a tecnologia Ethernet Gigabit 1000 Mbps. Nesse caso, seria preservado o investimento em eventual possibilidade de expansão futura do Sistema de Supervisão e Controle para uma quantidade maior de pontos.
 
 ### Software
 
