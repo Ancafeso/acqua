@@ -83,7 +83,7 @@ Estes componentes são interligados em rede local de comunicação padrão Ether
 ### Rede Local
 
 - Link de fibra ótica (single-mode/200Mbps) entre os reservatórios e a central de supervisão;
-- Links Ethernet (PoE/Cat6/200Mbps) utilizando cabo de par trançado entre a Central do Sistema a cada um dos tanques principais, com comprimento de até 100 m;
+- Links Ethernet (PoE/Cat6/200Mbps) utilizando cabo de par trançado Cat-6 entre a Central do Sistema a cada um dos tanques principais, com comprimento de até 100 m;
 - Opcionalmente pode ser utilizada a tecnologia Ethernet Gigabit 1000 Mbps. Nesse caso, seria preservado o investimento em eventual possibilidade de expansão futura do Sistema de Supervisão e Controle para uma quantidade maior de pontos;
 - Central do Sistema equipada com Switch PoE+ 8 portas 10/100 Mbps ou Gigabit, pelo menos 4 portas devem ser PoE+ 30W cada e as demais portas podem ser não PoE.
 
@@ -91,7 +91,7 @@ Estes componentes são interligados em rede local de comunicação padrão Ether
 
 Seguem telas típicas mostradas pela Central do Sistema. Outros sensores, como temperatura e umidade podem também ser incluídos, como mostra a imagem a seguir, com indicadores numéricos apresentados em tempo real.
 
-![tela-1](https://camo.githubusercontent.com/39219318bac546815348eb0eb30cde89fd3d88774b966204feb77cc55e4689d2/68747470733a2f2f692e696d6775722e636f6d2f684a47634557572e6a7067)
+![tela-1](https://camo.githubusercontent.com/087eb2f0eabe4d1e2a26ded712675a1c9adbb759c3bc9fcbc62b52c345fade20/68747470733a2f2f692e696d6775722e636f6d2f33704c426a4d322e6a7067)
 
 Na tela a seguir são apresentados histórico de medidas, usando gráficos em função do tempo:
 
