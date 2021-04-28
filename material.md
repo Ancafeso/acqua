@@ -23,7 +23,7 @@ Segue lista de material:
 
 - Kit Raspberry Pi 3B+ PoE+
 - Driver de saída digital para quadro de comando da bomba
-- Driver de entrada digital para sinal da bóia do caixa de entrada
+- Driver de entrada digital para sinal da bóia da caixa de entrada
 
 ## Sensor do Tanque
 
