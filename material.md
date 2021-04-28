@@ -40,7 +40,7 @@ Segue lista de material:
 
 - ref. [Intelbras SF 900 Hi-PoE](https://www.intelbras.com/pt-br/switch-9-portas-fast-ethernet-8-portas-poe-sf-900-hi-poe) PoE budget 60W na primeira porta PoE
 
-## Kit Raspberry Pi 3B+ PoE+ (2 x $700 = R$ 1.400)
+## Kit Raspberry Pi 3B+ PoE+ (3 x $800 = R$ 2.400)
 
 - Raspberry Pi 3B+
 - PoE Hat para Raspberry Pi
