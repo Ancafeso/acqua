@@ -68,7 +68,7 @@ Estes componentes são interligados em rede local de comunicação padrão Ether
 - No modo automático, a bomba deve desligar quando os reservatórios principais encherem;
 - No modo automático, a bomba deve ligar quando a água estiver abaixo de um certo nível;
 - No modo automático, a bomba só deve ligar se houver água na caixa de entrada;
-- Interligação do Controlador com a Central de Comando, através de um link de fibra ótica;
+- Interligação do Controlador com a Central de Comando através de um link de fibra ótica;
 - O quadro de comando deverá sofrer adequações ao Sistema de Supervisão e Controle;
 
 ### Supervisão
@@ -79,7 +79,6 @@ Estes componentes são interligados em rede local de comunicação padrão Ether
 - A Central dispõe de telas com indicadores e gráficos relativos ao estado do sistema;
 - Indicadores luminosos próximos aos reservatórios e à bomba sinalizam o estado do sistema;
 - Sensor laser opcional para obtenção do nível da caixa de entrada em tempo real;
-- As instalações de sensores serão autorizadas/realizadas pelo cliente; ??
 
 ### Rede Local
 
