@@ -6,7 +6,7 @@ Segue lista de material:
 ## Central do Sistema
 
 - 2 x Kit microcomputador
-- Rack padrão 19" 12U [coluna aberta](https://produto.mercadolivre.com.br/MLB-1300702213-coluna-rack-12u-_JM)
+- Rack padrão 19" 12U [coluna aberta](https://produto.mercadolivre.com.br/MLB-1300702213-coluna-rack-12u-_JM) (R$ 500)
 - Switch Ethernet PoE+
 - No-break 2 KVA
 
