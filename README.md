@@ -97,6 +97,6 @@ Na tela a seguir são apresentados histórico de medidas, usando gráficos em fu
 
 ![tela-2](https://user-images.githubusercontent.com/86032/65999795-84fca580-e474-11e9-9e6e-c87f0e9360c9.png)
 
-Segue um diagrama típico obtido de um Sistema de Supervisão semelhante ao atual, em que a bomba é acionada diversas vezes para transferir água da caixa de entrada para o reservatório principal. Repare que durante a madrugada, com consumo baixo, a bomba permanece manualmente desligada. Em seguida, fica registrado o início de uma manutenção, com o esvaziamento parcial do tanque.
+Segue um diagrama típico obtido de um Sistema de Supervisão semelhante ao atual, onde é mostrado o nível da água no tanque em função do tempo. A curva tipo dente-de-serra ocorre quando a bomba é acionada diversas vezes para transferir água da caixa de entrada para o reservatório principal. Durante a madrugada, o consumo é baixo e a bomba fica desligada. Em seguida no exemplo, fica registrado o início de uma manutenção, com o esvaziamento parcial do tanque.
 
 ![gráfico](https://user-images.githubusercontent.com/86032/65921516-d34c6e80-e3b8-11e9-9aca-f2b85e69e5dd.png)
