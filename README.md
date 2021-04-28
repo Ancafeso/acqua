@@ -85,7 +85,7 @@ Estes componentes serão interligados através de uma rede local de comunicaçã
 
 ### Software
 
-Seguem telas típicas mostradas pela Central do Sistema. Outras medidas, como temperatura e umidade podem também ser incluídas no sistema, como mostrado a seguir. A primeira tela mostra as medidas em tempo real.
+Seguem telas típicas mostradas pela Central do Sistema. Outros sensores, como temperatura e umidade podem também ser incluídos, como mostra a imagem a seguir, com indicadores numéricos apresentados em tempo real.
 
 ![tela-1](https://camo.githubusercontent.com/39219318bac546815348eb0eb30cde89fd3d88774b966204feb77cc55e4689d2/68747470733a2f2f692e696d6775722e636f6d2f684a47634557572e6a7067)
 
