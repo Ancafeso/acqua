@@ -85,7 +85,12 @@ Estes componentes serão interligados através de uma rede local de comunicaçã
 
 ### Software
 
-Segue um diagrama típico obtido de um Sistema de Supervisão semelhante ao atual, em que a bomba é acionada diversas vezes durante o dia para transferir água da caixa de entrada para o reservatório principal. Durante a madrugada, quando o consumo é baixo, a bomba permanece desligada. Na manhã seguinte, volta novamente a funcionar e toda a variação de estado é registrada.
+Seguem abaixo duas telas típicas mostradas pela Central do Sistema:
+
+![tela-1](https://camo.githubusercontent.com/39219318bac546815348eb0eb30cde89fd3d88774b966204feb77cc55e4689d2/68747470733a2f2f692e696d6775722e636f6d2f684a47634557572e6a7067)
+
+[tela-2](https://user-images.githubusercontent.com/86032/65999795-84fca580-e474-11e9-9e6e-c87f0e9360c9.png)
+
+Segue um diagrama típico obtido de um Sistema de Supervisão semelhante ao atual, em que a bomba é acionada diversas vezes durante o dia para transferir água da caixa de entrada para o reservatório principal. Durante a madrugada, quando o consumo é baixo, a bomba pode permanecer desligada. Na manhã seguinte, volta novamente a funcionar e toda a variação de estado é registrada.
 
 ![gráfico](https://user-images.githubusercontent.com/86032/65921516-d34c6e80-e3b8-11e9-9aca-f2b85e69e5dd.png)
-
