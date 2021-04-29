@@ -29,9 +29,9 @@ Há boa oferta de transdutores piezo-elétricos de pressão utilizando o padrão
 - ref ncd [1-Channel 4-20mA Current Loop Receiver 16-Bit ADS1115 I2C Mini Module](https://store.ncd.io/product/1-channel-4-20-ma-current-loop-receiver-16-bit-ads1115-i2c-mini-module/) US$ 40 + frete
 - ref ncd [2-Channel 4-20 mA Current Loop Receiver 16-Bit ADS1115 I2C Mini Module](https://store.ncd.io/product/2-channel-4-20-ma-current-loop-receiver-16-bit-ads1115-i2c-mini-module/) US$ 46 + frete
 
-![image](https://media.ncd.io/sites/2/20180316140437/ADS1115_INA196_2C_11.png)
-
 - ref. [ncd-store](https://store.ncd.io/?fwp_product_type=4-20ma-receiver&fwp_interface=i2c-interface)
+
+![image](https://media.ncd.io/sites/2/20180316140437/ADS1115_INA196_2C_11.png)
 
 ## Util
 
