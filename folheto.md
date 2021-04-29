@@ -1,5 +1,5 @@
 # acqua
 
-![acqua](https://user-images.githubusercontent.com/86032/116616257-df8d0a80-a912-11eb-8b35-173813b86109.jpg)
+![acqua2](https://user-images.githubusercontent.com/86032/116626658-069f0880-a922-11eb-81cc-4205e29b6b2f.png)
 
 
