@@ -16,7 +16,6 @@ Há boa oferta de transdutores piezo-elétricos de pressão utilizando o padrão
 - saída 4-20 mA
 
 - ref. banggood [0-1.6MPA G1/4 Pressure Transmitter Transducer 4-20mA Output](https://www.banggood.com/0-1_6MPA-G1-or-4-Pressure-Transmitter-Transducer-4-20mA-Output-For-Water-Gas-Oil-p-1802874.html) R$ 150
-
 ![image](https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/FB/A5/fe69754f-be71-4b31-9b70-e21da0278aa5.jpg.webp)
 
 - ref. aliexpress [4-20 mA pressure sensor transmitter](https://www.aliexpress.com/item/4000705950465.html) R$ 270
