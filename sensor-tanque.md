@@ -1,46 +1,17 @@
 # acqua
 ### Sistema de Supervisão e Controle de Água
 
-Segue lista de material:
+![acqua](https://user-images.githubusercontent.com/86032/116616257-df8d0a80-a912-11eb-8b35-173813b86109.jpg)
 
-## Central do Sistema
+Segue estudo sobre sensor de pressão  para tanques principais.
 
-- 1 x Kit microcomputador
-- Rack padrão 19" 12U [coluna aberta](https://produto.mercadolivre.com.br/MLB-1300702213-coluna-rack-12u-_JM) (R$ 500)
-- Switch Ethernet PoE+
-- No-break 2 KVA
+- medidor analógico atual: 0-2 kgf/cm2
+- faixa prevista a ser medida: 0-1.6 kgf/cm2
 
-## Kit microcomputador
+## Transdutores de Pressão
 
-- microcomputador AMD Fx-6300 six-core ou Intel i7
-- motherboard com porta Ethernet 10/100/1000 Mbps
-- memória RAM 16 GB
-- disco SSD 512 GB
-- fonte alimentação 450 W
-- case rack 19" 2U
+- Há uma boa oferta de transdutores de pressão no mercado utilizando padrão 4-20 mA para transmissão de dados.
+- O padrão 4-20 mA permite uma conexão segura de até 100 metros, utilizando cabo de par trançado.
 
-## Sensor do Tanque
 
-- Kit Raspberry Pi 3B+ PoE+
-- Sensor digital de pressão I2S max 2 kgf/cm2
 
-## Switch Ethernet PoE+ (R$ 1.000)
-
-- Switch PoE+ 8 portas 10/100 Mbps
-- pelo menos 4 portas PoE+ 30W 
-- demais portas podem ser não PoE
-- PoE budget 120 W, potência somada das portas PoE
-- abas para rack 19" 2U
-
-- ref. [Intelbras SF 900 Hi-PoE](https://www.intelbras.com/pt-br/switch-9-portas-fast-ethernet-8-portas-poe-sf-900-hi-poe) PoE budget 60W na primeira porta PoE
-
-## Kit Raspberry Pi 3B+ PoE+ (2 x $800 = R$ 1.600)
-
-- Raspberry Pi 3B+
-- PoE Hat para Raspberry Pi
-
-- ref. [Robocore](https://www.robocore.net/hat-raspberry-pi/poe-hat-raspberry-pi) Brasil
-
-## Cabo PP 2 x 1.5 m2 (R$ 3.000)
-
-- bobina 1000 m
