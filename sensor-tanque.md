@@ -23,7 +23,7 @@ Há boa oferta de transdutores piezo-elétricos de pressão utilizando o padrão
 - ref. aliexpress [pressure sensor 4-20 mA, 1/2 npt thread](https://www.aliexpress.com/item/32965084493.html) R$ 240
 - ref. aliexpress [sendo-sensor-store](https://sendosensor.aliexpress.com/store/405814)
 
-## Conversor A/D
+## Conversor A/D 4-20 mA I2C
 
 - Receptor de Loop de Corrente 4-20 mA
 - ref ncd [1-Channel 4-20mA Current Loop Receiver 16-Bit ADS1115 I2C Mini Module](https://store.ncd.io/product/1-channel-4-20-ma-current-loop-receiver-16-bit-ads1115-i2c-mini-module/) US$ 40 + frete
